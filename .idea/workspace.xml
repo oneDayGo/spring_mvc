@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aede361d-bca1-4e7c-8b09-150b0da0a3ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spirng_jdbc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spirng_jdbc/spirng_jdbc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spirng_jdbc/src/main/java/com/xiaoluomo/jdbc/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spirng_jdbc/src/main/java/com/xiaoluomo/jdbc/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spirng_jdbc/src/main/java/com/xiaoluomo/jdbc/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spirng_jdbc/src/main/resources/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spirng_jdbc/src/test/java/test/JDBCTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_affair/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_affair/spring_affair.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_affair/src/main/java/com/xiaoluomo/annotation_dao/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_affair/src/main/java/com/xiaoluomo/annotation_dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_affair/src/main/java/com/xiaoluomo/annotation_dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_affair/src/main/java/com/xiaoluomo/dao/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_affair/src/main/java/com/xiaoluomo/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_affair/src/main/java/com/xiaoluomo/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_affair/src/main/resources/annotation_baens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_affair/src/main/resources/baens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_affair/src/test/java/test/UserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -21,6 +25,7 @@
     <ignored path="$PROJECT_DIR$/aop/target/" />
     <ignored path="$PROJECT_DIR$/annotation_aop/target/" />
     <ignored path="$PROJECT_DIR$/spirng_jdbc/target/" />
+    <ignored path="$PROJECT_DIR$/spring_affair/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,31 +74,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spirng_jdbc/src/test/java/test/JDBCTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring_affair/src/test/java/test/UserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="105">
+              <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#update#0;class#JDBCTest#0" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spirng_jdbc/src/main/java/com/xiaoluomo/jdbc/UserDaoImpl.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring_affair/src/main/java/com/xiaoluomo/annotation_dao/UserDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#updateUser#0;class#UserDaoImpl#0" />
-                <element signature="method#deleteUser#0;class#UserDaoImpl#0" />
-                <element signature="e#1355#1361#0" expanded="true" />
-                <element signature="e#1599#1605#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="286">
+              <caret line="73" column="6" lean-forward="true" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring_affair/src/main/resources/annotation_baens.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -110,19 +118,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spirng_jdbc/src/main/java/com/xiaoluomo/jdbc/UserDao.java">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7801dc2f-1eca-483a-9966-a4215ba82021/console_1.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spirng_jdbc/src/main/resources/beans.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="18" />
+            <state>
+              <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -171,12 +170,22 @@
         <option value="$PROJECT_DIR$/aop/src/main/resources/annotation_aop.xml" />
         <option value="$PROJECT_DIR$/annotation_aop/src/test/java/test/AnnotationAspectTest.java" />
         <option value="$PROJECT_DIR$/annotation_aop/src/main/java/com/xiaoluomo/aspect/MyAspectAnnotation.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spirng_jdbc/src/main/java/com/xiaoluomo/jdbc/User.java" />
         <option value="$PROJECT_DIR$/spirng_jdbc/src/main/resources/beans.xml" />
         <option value="$PROJECT_DIR$/spirng_jdbc/src/main/java/com/xiaoluomo/jdbc/UserDao.java" />
         <option value="$PROJECT_DIR$/spirng_jdbc/src/main/java/com/xiaoluomo/jdbc/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/spirng_jdbc/src/test/java/test/JDBCTest.java" />
+        <option value="$PROJECT_DIR$/spring_affair/src/main/java/com/xiaolluomo/dao/User.java" />
+        <option value="$PROJECT_DIR$/spring_affair/src/main/java/com/xiaolluomo/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_affair/src/main/java/com/xiaolluomo/dao/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/spring_affair/src/main/resources/baens.xml" />
+        <option value="$PROJECT_DIR$/spring_affair/src/main/java/com/xiaoluomo/dao/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/spring_affair/src/main/java/com/xiaoluomo/annotation_dao/User.java" />
+        <option value="$PROJECT_DIR$/spring_affair/src/main/resources/annotation_baens.xml" />
+        <option value="$PROJECT_DIR$/spring_affair/src/test/java/test/UserTest.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7801dc2f-1eca-483a-9966-a4215ba82021/console_1.sql" />
+        <option value="$PROJECT_DIR$/spring_affair/src/main/java/com/xiaoluomo/annotation_dao/UserDaoImpl.java" />
       </list>
     </option>
   </component>
@@ -200,7 +209,7 @@
   <component name="MavenRunner">
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="92" />
     <option name="y" value="16" />
     <option name="width" value="1920" />
@@ -223,51 +232,30 @@
             <path>
               <item name="spirng" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="hello_spring" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spirng" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="hello_spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_affair" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spirng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_affair" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spirng" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="hello_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spirng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="hello_spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spirng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="spirng_jdbc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spirng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="spirng_jdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spirng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="spirng_jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_affair" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spirng" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="spirng_jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_affair" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -275,7 +263,7 @@
             <path>
               <item name="spirng" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="spirng_jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_affair" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -284,7 +272,7 @@
             <path>
               <item name="spirng" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="spirng_jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_affair" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -294,18 +282,7 @@
             <path>
               <item name="spirng" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="spirng_jdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xiaoluomo" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spirng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="spirng_jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_affair" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -313,25 +290,8 @@
             <path>
               <item name="spirng" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="spirng_jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_affair" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spirng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="spirng_jdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spirng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="spirng_jdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -348,7 +308,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/aop/src/main/java/com/xiaoluomo/annotation_dao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring_affair/src/main/java/com/xiaoluomo/annotation_dao" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -357,13 +317,15 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/annotation_aop/src/main/resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring_affair/src/main/java/com/xiaoluomo/annotation_dao" />
+      <recent name="$PROJECT_DIR$/spring_affair/src/main/java/com/xiaolluomo/dao" />
       <recent name="$PROJECT_DIR$/aop/src/main/java/com/xiaoluomo/annotation_dao" />
     </key>
   </component>
@@ -379,7 +341,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JDBCTest.testUserTable">
+  <component name="RunManager" selected="JUnit.UserTest.testAnnotationAffair">
     <configuration name="AnnotationAspectTest.testUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="annotation_aop" />
       <extension name="coverage">
@@ -390,22 +352,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.AnnotationAspectTest" />
-      <option name="METHOD_NAME" value="testUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnotationTest.testUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ioc_annotation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.AnotationTest" />
       <option name="METHOD_NAME" value="testUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -444,8 +390,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest.testUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hello_spring" />
+    <configuration name="UserTest.testAnnotationAffair" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_affair" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -454,7 +400,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.UserTest" />
-      <option name="METHOD_NAME" value="testUser" />
+      <option name="METHOD_NAME" value="testAnnotationAffair" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.testUserAffair" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_affair" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.UserTest" />
+      <option name="METHOD_NAME" value="testUserAffair" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -462,11 +424,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserTest.testAnnotationAffair" />
+        <item itemvalue="JUnit.UserTest.testUserAffair" />
         <item itemvalue="JUnit.JDBCTest.testUserTable" />
         <item itemvalue="JUnit.AnnotationAspectTest.testUser" />
         <item itemvalue="JUnit.AspectTest.testUserDao" />
-        <item itemvalue="JUnit.AnotationTest.testUser" />
-        <item itemvalue="JUnit.UserTest.testUser" />
       </list>
     </recent_temporary>
   </component>
@@ -482,44 +444,44 @@
       <updated>1576745632848</updated>
       <workItem from="1576745634219" duration="5075000" />
       <workItem from="1576751771217" duration="5588000" />
-      <workItem from="1576806471708" duration="6270000" />
+      <workItem from="1576806471708" duration="11604000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnnotationAspectTest_testUser - 2019.12.20 at 10h 24m 11s.xml">
-      <configuration name="AnnotationAspectTest.testUser" configurationId="JUnit" />
+    <history-entry file="UserTest_testUserAffair - 2019.12.20 at 16h 53m 57s.xml">
+      <configuration name="UserTest.testUserAffair" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnnotationAspectTest_testUser - 2019.12.20 at 10h 26m 23s.xml">
-      <configuration name="AnnotationAspectTest.testUser" configurationId="JUnit" />
+    <history-entry file="UserTest_testUserAffair - 2019.12.20 at 16h 57m 02s.xml">
+      <configuration name="UserTest.testUserAffair" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnnotationAspectTest_testUser - 2019.12.20 at 10h 28m 35s.xml">
-      <configuration name="AnnotationAspectTest.testUser" configurationId="JUnit" />
+    <history-entry file="UserTest_testUserAffair - 2019.12.20 at 17h 01m 42s.xml">
+      <configuration name="UserTest.testUserAffair" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnnotationAspectTest_testUser - 2019.12.20 at 10h 29m 12s.xml">
-      <configuration name="AnnotationAspectTest.testUser" configurationId="JUnit" />
+    <history-entry file="UserTest_testUserAffair - 2019.12.20 at 17h 02m 36s.xml">
+      <configuration name="UserTest.testUserAffair" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JDBCTest_testUserTable - 2019.12.20 at 14h 31m 56s.xml">
-      <configuration name="JDBCTest.testUserTable" configurationId="JUnit" />
+    <history-entry file="UserTest_testUserAffair - 2019.12.20 at 17h 02m 57s.xml">
+      <configuration name="UserTest.testUserAffair" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JDBCTest_testUserTable - 2019.12.20 at 14h 33m 18s.xml">
-      <configuration name="JDBCTest.testUserTable" configurationId="JUnit" />
+    <history-entry file="UserTest_testUserAffair - 2019.12.20 at 17h 03m 23s.xml">
+      <configuration name="UserTest.testUserAffair" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JDBCTest_testUserTable - 2019.12.20 at 14h 36m 19s.xml">
-      <configuration name="JDBCTest.testUserTable" configurationId="JUnit" />
+    <history-entry file="UserTest_testAnnotationAffair - 2019.12.20 at 17h 19m 53s.xml">
+      <configuration name="UserTest.testAnnotationAffair" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JDBCTest_testUserTable - 2019.12.20 at 14h 37m 27s.xml">
-      <configuration name="JDBCTest.testUserTable" configurationId="JUnit" />
+    <history-entry file="UserTest_testAnnotationAffair - 2019.12.20 at 17h 22m 24s.xml">
+      <configuration name="UserTest.testAnnotationAffair" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JDBCTest_testUserTable - 2019.12.20 at 14h 46m 25s.xml">
-      <configuration name="JDBCTest.testUserTable" configurationId="JUnit" />
+    <history-entry file="UserTest_testAnnotationAffair - 2019.12.20 at 17h 22m 53s.xml">
+      <configuration name="UserTest.testAnnotationAffair" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JDBCTest_testUserTable - 2019.12.20 at 14h 46m 52s.xml">
-      <configuration name="JDBCTest.testUserTable" configurationId="JUnit" />
+    <history-entry file="UserTest_testAnnotationAffair - 2019.12.20 at 17h 23m 57s.xml">
+      <configuration name="UserTest.testAnnotationAffair" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16933000" />
+    <option name="totallyTimeSpent" value="22267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1922" height="1001" extended-state="6" />
@@ -532,10 +494,10 @@
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32916147" />
+      <window_info active="true" anchor="bottom" id="Database Console" visible="true" weight="0.32916147" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32916147" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4292866" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5206508" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -544,7 +506,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32916147" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.6020025" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -562,16 +524,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hello_spring/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="100" selection-start-line="1" selection-start-column="100" selection-end-line="1" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hello_spring/src/main/java/com/xiaoluomo/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -777,13 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aop/src/main/resources/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="92" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/annotation_aop/src/main/java/com/xiaoluomo/aspect/MyAspectAnnotation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -801,16 +746,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spirng_jdbc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -852,33 +787,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spirng_jdbc/src/main/resources/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://7801dc2f-1eca-483a-9966-a4215ba82021/schema/dbs/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="9f2320a3-6b4e-4dac-b07e-fd7d1966f5ab">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spirng_jdbc/src/main/java/com/xiaoluomo/jdbc/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="242">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spirng_jdbc/src/main/java/com/xiaoluomo/jdbc/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="467">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#updateUser#0;class#UserDaoImpl#0" />
@@ -891,12 +810,131 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spirng_jdbc/src/test/java/test/JDBCTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="467">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#update#0;class#JDBCTest#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spirng_jdbc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="21" selection-start-line="13" selection-start-column="7" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop/src/main/resources/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spirng_jdbc/src/main/resources/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://7801dc2f-1eca-483a-9966-a4215ba82021/schema/dbs/table/user.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_affair/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="89" column="21" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_affair/src/main/java/com/xiaoluomo/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_affair/src/main/java/com/xiaoluomo/dao/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_affair/src/main/java/com/xiaoluomo/annotation_dao/User.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_affair/src/main/java/com/xiaoluomo/annotation_dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_affair/src/main/java/com/xiaoluomo/dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="68" column="6" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
+          <folding>
+            <element signature="method#updateUser#0;class#UserDaoImpl#0" />
+            <element signature="method#deleteUser#0;class#UserDaoImpl#0" />
+            <element signature="method#findUser#0;class#UserDaoImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_affair/src/main/resources/baens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_affair/src/main/resources/annotation_baens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_affair/src/test/java/test/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://7801dc2f-1eca-483a-9966-a4215ba82021/schema/dbs/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="9f2320a3-6b4e-4dac-b07e-fd7d1966f5ab">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7801dc2f-1eca-483a-9966-a4215ba82021/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_affair/src/main/java/com/xiaoluomo/annotation_dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="73" column="6" lean-forward="true" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
         </state>
       </provider>
     </entry>
