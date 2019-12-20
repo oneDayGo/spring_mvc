@@ -9,6 +9,7 @@
         <module name="ioc_annotation" />
         <module name="annotation_aop" />
         <module name="aop" />
+        <module name="spirng_jdbc" />
         <module name="hello_spring" />
       </profile>
     </annotationProcessing>
