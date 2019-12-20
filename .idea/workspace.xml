@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aede361d-bca1-4e7c-8b09-150b0da0a3ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotation_aop/annotation_aop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotation_aop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotation_aop/src/main/java/com/xiaoluomo/annotation_dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotation_aop/src/main/java/com/xiaoluomo/annotation_dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotation_aop/src/main/java/com/xiaoluomo/aspect/MyAspectAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotation_aop/src/main/resources/annotation_aop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotation_aop/src/test/java/test/AnnotationAspectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/aop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/com/xiaoluomo/aspect/MyAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/com/xiaoluomo/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/com/xiaoluomo/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/test/java/test/AspectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello_spring/hello_spring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello_spring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello_spring/src/main/java/com/xiaoluomo/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello_spring/src/main/java/com/xiaoluomo/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello_spring/src/main/java/com/xiaoluomo/other/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello_spring/src/main/java/com/xiaoluomo/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello_spring/src/main/java/com/xiaoluomo/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello_spring/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello_spring/src/test/java/test/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello_spring/src/test/java/test/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello_spring/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello_spring/target/classes/com/xiaoluomo/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello_spring/target/classes/com/xiaoluomo/dao/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello_spring/target/classes/com/xiaoluomo/other/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello_spring/target/classes/com/xiaoluomo/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello_spring/target/classes/com/xiaoluomo/service/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello_spring/target/test-classes/test/UserDaoTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello_spring/target/test-classes/test/UserTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc_annotation/ioc_annotation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc_annotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc_annotation/src/main/java/com/xiaoluomo/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc_annotation/src/main/java/com/xiaoluomo/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc_annotation/src/main/java/com/xiaoluomo/dao/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc_annotation/src/main/java/com/xiaoluomo/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc_annotation/src/main/java/com/xiaoluomo/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc_annotation/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc_annotation/src/test/java/test/AnotationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc_annotation/target/classes/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc_annotation/target/classes/com/xiaoluomo/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc_annotation/target/classes/com/xiaoluomo/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc_annotation/target/classes/com/xiaoluomo/dao/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc_annotation/target/classes/com/xiaoluomo/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc_annotation/target/classes/com/xiaoluomo/service/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc_annotation/target/test-classes/test/AnotationTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/hello_spring/target/" />
+    <ignored path="$PROJECT_DIR$/ioc_annotation/target/" />
+    <ignored path="$PROJECT_DIR$/aop/target/" />
+    <ignored path="$PROJECT_DIR$/annotation_aop/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aop/src/main/resources/beans.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="22" column="92" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/annotation_aop/src/test/java/test/AnnotationAspectTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/annotation_aop/src/main/resources/annotation_aop.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/annotation_aop/src/main/java/com/xiaoluomo/aspect/MyAspectAnnotation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/hello_spring/src/main/java/com/xiaoluomo/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/hello_spring/src/main/java/com/xiaoluomo/dao/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/hello_spring/src/main/java/com/xiaoluomo/service/UserService.java" />
+        <option value="$PROJECT_DIR$/hello_spring/src/main/java/com/xiaoluomo/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/hello_spring/src/test/java/test/UserDaoTest.java" />
+        <option value="$PROJECT_DIR$/hello_spring/src/main/java/com/xiaoluomo/other/User.java" />
+        <option value="$PROJECT_DIR$/hello_spring/src/test/java/test/UserTest.java" />
+        <option value="$PROJECT_DIR$/ioc_annotation/src/main/java/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/ioc_annotation/src/main/java/dao/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/ioc_annotation/src/main/java/service/UserService.java" />
+        <option value="$PROJECT_DIR$/ioc_annotation/src/main/java/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ioc_annotation/src/main/java/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/ioc_annotation/src/main/resources/beans.xml" />
+        <option value="$PROJECT_DIR$/ioc_annotation/src/test/java/test/AnotationTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/aop/src/main/java/com/xiaoluomo/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/aop/src/main/java/com/xiaoluomo/dao/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/hello_spring/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/aop/src/main/resources/beans.xml" />
+        <option value="$PROJECT_DIR$/aop/src/test/java/test/AspectTest.java" />
+        <option value="$PROJECT_DIR$/aop/src/main/java/com/xiaoluomo/aspect/MyAspect.java" />
+        <option value="$PROJECT_DIR$/aop/src/main/java/com/xiaoluomo/aspect/MyAspectAnnotation.java" />
+        <option value="$PROJECT_DIR$/aop/src/main/java/com/xiaoluomo/annotation_dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/aop/src/main/java/com/xiaoluomo/annotation_dao/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/aop/src/test/java/test/AnnotationAspectTest.java" />
+        <option value="$PROJECT_DIR$/aop/src/main/resources/annotation_aop.xml" />
+        <option value="$PROJECT_DIR$/annotation_aop/src/test/java/test/AnnotationAspectTest.java" />
+        <option value="$PROJECT_DIR$/annotation_aop/src/main/java/com/xiaoluomo/aspect/MyAspectAnnotation.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../_dde_data/maven" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="92" />
+    <option name="y" value="16" />
+    <option name="width" value="1920" />
+    <option name="height" value="999" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spirng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spirng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spirng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spirng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spirng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spirng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/aop/src/main/java/com/xiaoluomo/annotation_dao" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/annotation_aop/src/main/resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/aop/src/main/java/com/xiaoluomo/annotation_dao" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AnnotationAspectTest.testUser">
+    <configuration name="AnnotationAspectTest.testUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="annotation_aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AnnotationAspectTest" />
+      <option name="METHOD_NAME" value="testUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnotationTest.testUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ioc_annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AnotationTest" />
+      <option name="METHOD_NAME" value="testUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AspectTest.testUserDao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AspectTest" />
+      <option name="METHOD_NAME" value="testUserDao" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.testUserService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello_spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.UserDaoTest" />
+      <option name="METHOD_NAME" value="testUserService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.testUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello_spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.UserTest" />
+      <option name="METHOD_NAME" value="testUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AnnotationAspectTest.testUser" />
+        <item itemvalue="JUnit.AspectTest.testUserDao" />
+        <item itemvalue="JUnit.AnotationTest.testUser" />
+        <item itemvalue="JUnit.UserTest.testUser" />
+        <item itemvalue="JUnit.UserDaoTest.testUserService" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aede361d-bca1-4e7c-8b09-150b0da0a3ab" name="Default Changelist" comment="" />
+      <created>1576745632848</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576745632848</updated>
+      <workItem from="1576745634219" duration="5075000" />
+      <workItem from="1576751771217" duration="5588000" />
+      <workItem from="1576806471708" duration="2437000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AspectTest_testUserDao - 2019.12.19 at 21h 32m 32s.xml">
+      <configuration name="AspectTest.testUserDao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationAspectTest_testUser - 2019.12.20 at 10h 13m 35s.xml">
+      <configuration name="AnnotationAspectTest.testUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationAspectTest_testUser - 2019.12.20 at 10h 14m 55s.xml">
+      <configuration name="AnnotationAspectTest.testUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationAspectTest_testUser - 2019.12.20 at 10h 15m 45s.xml">
+      <configuration name="AnnotationAspectTest.testUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationAspectTest_testUser - 2019.12.20 at 10h 17m 37s.xml">
+      <configuration name="AnnotationAspectTest.testUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationAspectTest_testUser - 2019.12.20 at 10h 18m 26s.xml">
+      <configuration name="AnnotationAspectTest.testUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AspectTest_testUserDao - 2019.12.20 at 10h 23m 11s.xml">
+      <configuration name="AspectTest.testUserDao" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationAspectTest_testUser - 2019.12.20 at 10h 23m 41s.xml">
+      <configuration name="AnnotationAspectTest.testUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationAspectTest_testUser - 2019.12.20 at 10h 24m 11s.xml">
+      <configuration name="AnnotationAspectTest.testUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationAspectTest_testUser - 2019.12.20 at 10h 26m 23s.xml">
+      <configuration name="AnnotationAspectTest.testUser" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13100000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="-1" width="1922" height="1001" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25726587" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32916147" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18022528" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32916147" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/hello_spring/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="100" selection-start-line="1" selection-start-column="100" selection-end-line="1" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello_spring/src/main/java/com/xiaoluomo/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello_spring/src/main/java/com/xiaoluomo/dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding>
+            <element signature="e#98#99#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello_spring/src/test/java/test/UserDaoTest.kt" />
+    <entry file="file://$PROJECT_DIR$/hello_spring/src/main/java/com/xiaoluomo/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello_spring/src/main/java/com/xiaoluomo/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello_spring/src/test/java/test/UserDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello_spring/src/main/java/com/xiaoluomo/other/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="method#toString#0;class#User#0" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello_spring/src/test/java/test/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioc_annotation/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioc_annotation/src/main/java/com/xiaoluomo/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioc_annotation/src/main/java/com/xiaoluomo/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioc_annotation/src/test/java/test/AnotationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioc_annotation/src/main/java/com/xiaoluomo/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioc_annotation/src/main/java/com/xiaoluomo/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioc_annotation/src/main/java/com/xiaoluomo/dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop/src/main/java/com/xiaoluomo/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello_spring/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-299">
+          <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ioc_annotation/src/main/resources/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop/src/main/java/com/xiaoluomo/dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop/src/main/java/com/xiaoluomo/aspect/MyAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotation_aop/src/main/java/com/xiaoluomo/annotation_dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotation_aop/src/main/java/com/xiaoluomo/annotation_dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotation_aop/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop/src/test/java/test/AspectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotation_aop/src/main/resources/annotation_aop.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop/src/main/resources/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="92" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotation_aop/src/test/java/test/AnnotationAspectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotation_aop/src/main/java/com/xiaoluomo/aspect/MyAspectAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

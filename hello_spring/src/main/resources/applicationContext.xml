@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="userDao" class="com.xiaoluomo.dao.UserDaoImpl"></bean>
+    <bean id="userService" class="com.xiaoluomo.service.UserServiceImpl">
+        <property name="userDao" ref="userDao"></property>
+    </bean>
+
+
+    <!-- 构造函数注入   -->
+    <bean id="user" class="com.xiaoluomo.other.User">
+    <constructor-arg name="userName" value="zhangsan"></constructor-arg>
+    <constructor-arg name="password" value="11111"></constructor-arg>
+        <constructor-arg name="list">
+            <list>
+                <value>list1</value>
+                <value>list2</value>
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <!-- 属性注入 -->
+    <bean id="user2" class="com.xiaoluomo.other.User">
+        <property name="userName" value="zhangsan2"></property>
+        <property name="password" value="1234"></property>
+        <property name="list">
+            <list>
+                <value>hello1</value>
+                <value>h2llo2</value>
+            </list>
+        </property>
+    </bean>
+
+</beans>
