@@ -9,6 +9,7 @@
         <module name="spirng_jdbc" />
         <module name="hello_spring" />
         <module name="mybatis" />
+        <module name="spring_mybatis" />
         <module name="ioc_annotation" />
         <module name="annotation_aop" />
         <module name="spring_affair" />
