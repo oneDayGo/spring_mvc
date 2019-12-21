@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--导入配置-->
+    <properties resource="db.properties"></properties>
+
+    <environments default="mysql">
+        <environment id="mysql">
+            <!--配置事务类型-->
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!--配置mapper的位置-->
+    <mappers>
+        <mapper resource="com/xiaoluomo/mapper/UserMapper.xml"></mapper>
+        <mapper resource="com/xiaoluomo/mapper/DynamicMapper.xml"></mapper>
+        <mapper resource="com/xiaoluomo/mapper/IdentityMapper.xml"></mapper>
+        <mapper resource="com/xiaoluomo/mapper/CourseMapper.xml"></mapper>
+
+    </mappers>
+
+</configuration>

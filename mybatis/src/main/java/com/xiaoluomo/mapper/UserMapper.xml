@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiaoluomo.mapper.UserMapper">
+    <select id="findUser" parameterType="Integer" resultType="com.xiaoluomo.po.User">
+        select * from  user where id=#{id}
+    </select>
+    <select id="findUserByName" parameterType="String" resultType="com.xiaoluomo.po.User">
+        select * from user where  name like '%${value}%'
+    </select>
+    <!-- useGeneratedKeys="true" keyProperty="id"　获取插入主键-->
+    <insert id="addUser" parameterType="com.xiaoluomo.po.User" useGeneratedKeys="true" keyProperty="id">
+
+        insert  into  user (name,pass) value (#{name},#{pass});
+    </insert>
+    <update id="userUpdate" parameterType="com.xiaoluomo.po.User">
+        update user set name=#{name},pass=#{pass} where id=#{id};
+    </update>
+    <delete id="userDel" parameterType="Integer">
+        delete from user where id=#{id};
+    </delete>
+    
+
+    <!--一对多-->
+    <select id="findRelationUserAndBooksData" resultMap="UserRelationBooks">
+        select u.*,b.id as u_id,b.uid,b.name from user u,books b where u.id=b.uid and u.id=#{id};
+    </select>
+
+
+    <!--一对多-->
+    <resultMap id="UserRelationBooks" type="com.xiaoluomo.po.User">
+        <id property="id" column="id"></id>
+        <result property="name" column="name"></result>
+        <result property="pass" column="pass"></result>
+        <collection property="books" ofType="com.xiaoluomo.po.Books">
+            <id property="id" column="u_id"></id>
+            <result property="name" column="name"></result>
+            <result property="uid" column="uid"></result>
+        </collection>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiaoluomo.mapper.IdentityMapper">
+    <!--一对一-->
+    <select id="findIdentity" resultMap="Inentity">
+
+        select i.*,u.id as u_id,u.name,u.pass from identity i,user u where i.uid=u.id;
+
+    </select>
+
+    <!--一对一查询-->
+    <select id="findOneIdentity"  parameterType="Integer" resultMap="Inentity">
+         select i.*,u.id as u_id,u.name,u.pass from identity i,user u where i.uid=u.id and i.id=#{id};
+    </select>
+
+    <!--一对一-->
+    <resultMap id="Inentity" type="com.xiaoluomo.po.Identity">
+        <id property="id" column="id"></id>
+        <result property="uid" column="uid"></result>
+        <result property="code" column="code"></result>
+        <!--通过user来关联,对应com.xiaoluomo.po.Identity类中的user属性-->
+        <association property="user" javaType="com.xiaoluomo.po.User">
+            <id property="id" column="u_id"></id>
+            <result property="name" column="name"></result>
+            <result property="pass" column="pass"></result>
+        </association>
+    </resultMap>
+
+    <!--一对多-->
+
+</mapper>
