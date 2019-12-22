@@ -19,6 +19,7 @@
         <module>spring_mybatis</module>
         <module>spring_mvc</module>
         <module>spring_mvc_annotation</module>
+        <module>ssm</module>
     </modules>
     <dependencies>
         <dependency>
@@ -142,11 +143,7 @@
             <artifactId>jackson-annotations</artifactId>
             <version>2.10.1</version>
         </dependency>
-        <dependency>
-            <groupId>javax.servlet.jsp.jstl</groupId>
-            <artifactId>jstl</artifactId>
-            <version>1.2</version>
-        </dependency>
+
 
     </dependencies>
 

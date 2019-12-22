@@ -12,6 +12,7 @@
         <module name="spring_mybatis" />
         <module name="spring_mvc_annotation" />
         <module name="ioc_annotation" />
+        <module name="ssm" />
         <module name="annotation_aop" />
         <module name="spring_affair" />
         <module name="spring_mvc" />
