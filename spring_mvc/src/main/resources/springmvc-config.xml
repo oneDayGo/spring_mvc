@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!--配置处理器隐射请求　传统方式-->
+   <bean name="/test" class="com.xiaoluomo.controller.IndexController"></bean>
+
+<!-- 处理器映射,将处理器handle的name作为url进行查找   -->
+    <bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"></bean>
+
+<!--处理器适配器,配置对处理器中的handleRequest()方法调用-->
+    <bean class="org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter"></bean>
+<!--视图解析-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"></bean>
+
+
+
+</beans>

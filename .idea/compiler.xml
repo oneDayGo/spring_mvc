@@ -10,9 +10,11 @@
         <module name="hello_spring" />
         <module name="mybatis" />
         <module name="spring_mybatis" />
+        <module name="spring_mvc_annotation" />
         <module name="ioc_annotation" />
         <module name="annotation_aop" />
         <module name="spring_affair" />
+        <module name="spring_mvc" />
         <module name="aop" />
       </profile>
     </annotationProcessing>
